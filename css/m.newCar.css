@@ -133,13 +133,13 @@ li.newCar_details_btn_consult>a>i {
 }
 
 /*新车分享*/
-section.newCar_details_main.newCar_details_share { padding-bottom: 3.6rem; }
+section.newCar_details_main.newCar_details_share { padding-bottom: 5rem; }
 section.details_push {
     position: fixed;
     left: 0;
     right: 0;
     bottom: 0;
-    height: 4.08rem;
+    height: 5.08rem;
     z-index: 997;
 }
 div.details_push_content {
@@ -149,6 +149,18 @@ div.details_push_content {
     background: url(../images/icon/details_push.jpg) no-repeat;
     background-size: 100%;
 }
+  .newCar_details_tel{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0rem;
+   }
+   .newCar_details_tel>a {
+       display: block;  text-align: center; height: 1rem; line-height: 1rem;
+       background-color: #DA1823; color: #fff; font-size: 16px;
+   }
+   [data-dpr="2"] .newCar_details_tel>a { font-size: 32px; }
+   [data-dpr="3"] .newCar_details_tel>a { font-size: 48px; }
 div.details_push_content>p.txt_top {
     margin-top: .4rem;
     font-size: 0.3467rem;
@@ -182,7 +194,7 @@ div.details_push_content>p.txt_bottom {
 }
 div.details_push_btn {
     position: absolute;
-    bottom: 0.2667rem;
+    bottom: 1.2667rem;
     left: 0;
     right: 0;
 }
