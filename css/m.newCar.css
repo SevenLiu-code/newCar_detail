@@ -1,0 +1,247 @@
+html, body { background-color: #F2F2F2; }
+.common_head {
+    position: relative;
+    border-bottom: 1px solid #C88585;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    background-color: #E94A35;
+}
+.details_head>a.head_return {
+    color: #fff;
+}
+.common_head a.head_return {
+    position: absolute;
+    z-index: 3;
+    height: 1.1rem;
+    padding: 0 0.0667rem;
+    margin-left: 0.3733rem;
+    line-height: 1.1rem;
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+[data-dpr="2"] .common_head a.head_return { font-size: 48px; }
+[data-dpr="3"] .common_head a.head_return { font-size: 72px; }
+
+.common_head .head_content {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    height: 1.1rem;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+[data-dpr="2"] .common_head .head_content { font-size: 36px; }
+[data-dpr="3"] .common_head .head_content { font-size: 54px; }
+
+
+div.newCar_details_slide {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    font-size: 0;
+}
+.newCar_details_slide>ul>li>img { width: 100%; }
+
+.swiper-newCar-details .swiper-pagination-fraction {
+    width: 1.2rem; height: 1.2rem; line-height: 1.2rem; border-radius: 50%;
+    position: absolute; left: 84%; bottom: .4rem;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff; font-size: 14px;
+ }
+[data-dpr="2"] .swiper-newCar-details .swiper-pagination-fraction {
+    font-size: 28px;
+}
+[data-dpr="3"] .swiper-newCar-details .swiper-pagination-fraction {
+    font-size: 42px;
+}
+/*车辆详情主体*/
+section.newCar_details_main { padding-bottom: .7rem;
+      background-color: #fff; }
+div.newCar_desc { background-color: #F2F2F2; }
+.newCar_details_item {
+    margin-bottom: .4rem;
+    padding: .4rem; background-color: #fff;
+ }
+.newCar_desc_top .newCar_desc_tit { font-size: 20px; }
+[data-dpr="2"] .newCar_desc_top .newCar_desc_tit { font-size: 40px; }
+[data-dpr="3"] .newCar_desc_top .newCar_desc_tit { font-size: 60px; }
+
+.newCar_desc_top .newCar_desc_price {  line-height: .9rem;
+     font-size: 14px; color: #666; }
+[data-dpr="2"] .newCar_desc_top .newCar_desc_price { font-size: 28px; }
+[data-dpr="3"] .newCar_desc_top .newCar_desc_price { font-size: 42px; }
+
+.newCar_desc_top .newCar_desc_price_part { color: #DF411A; font-size: 18px;  }
+[data-dpr="2"] .newCar_desc_top .newCar_desc_price_part { font-size: 36px; }
+[data-dpr="3"] .newCar_desc_top .newCar_desc_price_part { font-size: 54px; }
+
+.newCar_desc_top .newCar_desc_price_part span {
+  display: inline-block; margin-right: .53rem; }
+ul.newCar_desc_middle_list { padding: .13rem 0; background-color: #F8F8F8; }
+ul.newCar_desc_middle_list>li { width: 33.33%; text-align: center; }
+p.newCar_desc_middle_desc { font-size: 16px; color: #575757; }
+[data-dpr="2"] p.newCar_desc_middle_desc { font-size: 32px; }
+[data-dpr="3"] p.newCar_desc_middle_desc { font-size: 48px; }
+
+p.newCar_desc_middle_content { padding-top: .13rem; font-size: 18px; color: #DB431C;  }
+[data-dpr="2"] p.newCar_desc_middle_content { font-size: 36px; }
+[data-dpr="3"] p.newCar_desc_middle_content { font-size: 54px; }
+
+div.newCar_desc_middle_txt>p { padding: 0 .27rem; margin-right: .27rem;
+    border-radius: .13rem; font-size: 14px; margin-top: .4rem;
+    border: 1px solid #F13D0A; color: #F13D0A; line-height: .65rem;
+    background-color: #FBEFEF; }
+[data-dpr="2"] div.newCar_desc_middle_txt>p { font-size: 28px; }
+[data-dpr="3"] div.newCar_desc_middle_txt>p { font-size: 42px; }
+
+.newCar_details_info table {  width: 100%; text-align: left; }
+.newCar_details_info_tit {  padding-bottom: .67rem; text-align: center;
+   font-size: 16px; color: #111; }
+[data-dpr="2"] .newCar_details_info_tit { font-size: 32px; }
+[data-dpr="3"] .newCar_details_info_tit { font-size: 48px; }
+
+
+.newCar_details_info table tr { border-bottom: 1px solid #CACACA; }
+.newCar_details_info table tr:last-child { border-bottom: none; }
+.newCar_details_info table td { font-size: 16px; padding: .27rem 0; }
+[data-dpr="2"] .newCar_details_info table td { padding-left: .2rem; font-size: 32px; }
+[data-dpr="3"] .newCar_details_info table td { font-size: 48px; }
+
+.newCar_details_info table td.newCar_details_info_left { width: 35%; color: #241A14; }
+.newCar_details_info table td.newCar_details_info_right { width: 65%; color: #777; }
+
+ul.newCar_details_btn_list {
+    position: fixed; bottom: 0;
+    box-shadow: 0 0 28px 0 #aaa;
+    width: 100%; overflow: hidden;
+}
+/*ul.newCar_details_btn_list>li { float: left; width: 50%; }*/
+ul.newCar_details_btn_list>li.newCar_details_btn_consult { background-color: #fe8500; }
+ul.newCar_details_btn_list>li.newCar_details_see { background-color: #fe0100; }
+
+ul.newCar_details_btn_list>li>a, ul.newCar_details_btn_list>li>button {
+    display: block; text-align: center;
+    height: 1.1rem; line-height: 1.1rem;  color: #fff;
+    font-size: 0.4267rem;
+}
+li.newCar_details_btn_consult>a>i {
+    display: inline-block; width: 0.9067rem; height: 0.72rem;
+    background: url(../images/icon/details_tel.png) no-repeat;
+    background-size: 100%; vertical-align: middle; margin-right: .4rem;
+}
+
+/*新车分享*/
+section.newCar_details_main.newCar_details_share { padding-bottom: 3.6rem; }
+section.details_push {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 4.08rem;
+    z-index: 997;
+}
+div.details_push_content {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: url(../images/icon/details_push.jpg) no-repeat;
+    background-size: 100%;
+}
+div.details_push_content>p.txt_top {
+    margin-top: .4rem;
+    font-size: 0.3467rem;
+    color: #fff;
+}
+div.details_push_content>p {
+    padding-left: 0.32rem;
+}
+div.details_push_content>p.txt_top {
+    margin-top: .4rem;
+    font-size: 0.3467rem;
+    color: #fff;
+}
+div.details_push_content>p.txt_center {
+    font-size: 0.48rem;
+    color: #fff;
+}
+div.details_push_content>p.txt_center>span {
+    color: #ffcc08;
+}
+div.details_push_line {
+    margin: 0.3rem 0 0 0.32rem;
+    width: 0.6rem;
+    height: 0.0667rem;
+    background-color: #fff;
+}
+div.details_push_content>p.txt_bottom {
+    font-size: 0.4267rem;
+    line-height: .7rem;
+    color: #ffcc08;
+}
+div.details_push_btn {
+    position: absolute;
+    bottom: 0.2667rem;
+    left: 0;
+    right: 0;
+}
+div.details_push_btn>button {
+    display: block;
+    width: 92%;
+    height: 1rem;
+    margin: 0 auto;
+    border-radius: 0.1333rem;
+    background-color: #ffcc08;
+    font-size: 0.3733rem;
+    color: #111;
+}
+section.details_push_tip {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,.5);
+    z-index: 998;
+    display: none;
+}
+div.details_push_tip_content {
+    position: absolute;
+    z-index: 999;
+    height: 3.7333rem;
+    width: 7.2rem;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    border-radius: 0.2rem;
+    text-align: center;
+}
+div._push_tip_top>p {
+    padding-top: 0.75rem;
+    font-size: 0.3733rem;
+    color: #3e3a39;
+}
+div._push_tip_top>h2 {
+    padding-top: 0.2rem;
+    font-size: 0.46rem;
+    color: #fe0000;
+}
+div._push_tip_link {
+    height: 1.12rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    line-height: 1.12rem;
+    border-top: 1px solid #d7d7d7;
+}
+div._push_tip_link>a {
+    display: block;
+    font-size: 0.4rem;
+    color: #3e3a39;
+    height: 100%;
+}
