@@ -99,7 +99,7 @@ p.newCar_desc_middle_content { padding-top: .13rem; font-size: 16px; color: #DB4
 div.newCar_desc_middle_txt>p { padding: 0 .27rem; margin-right: .27rem;
     border-radius: .13rem; font-size: 14px; margin-top: .4rem;
     border: 1px solid #F13D0A; color: #F13D0A; line-height: .65rem;
-    background-color: #FBEFEF; }
+    height: .65rem; background-color: #FBEFEF; }
 [data-dpr="2"] div.newCar_desc_middle_txt>p { font-size: 28px; }
 [data-dpr="3"] div.newCar_desc_middle_txt>p { font-size: 42px; }
 
