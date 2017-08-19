@@ -131,7 +131,7 @@ li.newCar_details_btn_consult>a>i {
     background: url(../images/icon/details_tel.png) no-repeat;
     background-size: 100%; vertical-align: middle; margin-right: .4rem;
 }
-
+div.newCar_details_bright>img { width: 100%; }
 /*新车分享*/
 section.newCar_details_main.newCar_details_share { padding-bottom: 5rem; }
 section.details_push {
