@@ -238,6 +238,7 @@ div.details_push_tip_content {
     border-radius: 0.2rem;
     text-align: center;
 }
+div.newCar_details_bright { font-size: 0; }
 div._push_tip_top>p {
     padding-top: 0.75rem;
     font-size: 0.3733rem;
